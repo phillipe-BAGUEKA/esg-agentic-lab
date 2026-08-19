@@ -1,12 +1,12 @@
 import pytest
 
-from examples.bigram_language_model import (
+from prototypes.bigram_language_model import (
     count_bigrams,
     generate_tokens,
     next_token_probabilities,
     predict_next_token,
 )
-from examples.tokenization_demo import (
+from prototypes.tokenization_demo import (
     build_vocabulary,
     decode,
     detokenize,
