@@ -28,7 +28,9 @@ Ces capacités constituent des orientations de travail et ne sont pas encore imp
 
 ## État actuel
 
-Le projet est en phase **V0 — Foundations**. Le dépôt contient uniquement un package Python minimal, sa configuration, un test de fumée et la documentation initiale.
+Le projet est en phase **V0 — Foundations**. Le dépôt contient un package Python minimal et des prototypes pédagogiques testés autour de la tokenisation et des réseaux récurrents.
+
+Les fondations LSTM et GRU sont présentées dans [docs/lstm_gru_foundations.md](docs/lstm_gru_foundations.md) et illustrées par les prototypes manuels correspondants dans `prototypes/`.
 
 ## Aperçu de la roadmap
 
