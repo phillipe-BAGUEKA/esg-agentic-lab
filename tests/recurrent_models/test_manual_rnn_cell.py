@@ -1,6 +1,9 @@
 import torch
 
-from prototypes.manual_rnn_cell import ManualRNNCell, run_manual_rnn
+from prototypes.recurrent_models.manual_rnn_cell import (
+    ManualRNNCell,
+    run_manual_rnn,
+)
 
 
 def test_parameter_shapes_and_trainable_parameter_count() -> None:

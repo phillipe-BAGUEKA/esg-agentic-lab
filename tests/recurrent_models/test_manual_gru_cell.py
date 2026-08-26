@@ -2,7 +2,10 @@ import pytest
 import torch
 from torch import nn
 
-from prototypes.manual_gru_cell import ManualGRU, ManualGRUCell
+from prototypes.recurrent_models.manual_gru_cell import (
+    ManualGRU,
+    ManualGRUCell,
+)
 
 
 def test_gru_parameter_shapes_and_count() -> None:

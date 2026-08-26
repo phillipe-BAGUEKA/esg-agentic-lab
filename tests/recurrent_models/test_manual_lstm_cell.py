@@ -2,7 +2,10 @@ import pytest
 import torch
 from torch import nn
 
-from prototypes.manual_lstm_cell import ManualLSTM, ManualLSTMCell
+from prototypes.recurrent_models.manual_lstm_cell import (
+    ManualLSTM,
+    ManualLSTMCell,
+)
 
 
 def test_lstm_parameter_shapes_and_count() -> None:

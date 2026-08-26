@@ -1,0 +1,1 @@
+"""Manual Transformer-family prototypes."""
