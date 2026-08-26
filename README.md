@@ -32,6 +32,8 @@ Le projet est en phase **V0 — Foundations**. Le dépôt contient un package Py
 
 Les fondations LSTM et GRU sont présentées dans [docs/recurrent_models/lstm_gru_foundations.md](docs/recurrent_models/lstm_gru_foundations.md) et illustrées par les prototypes manuels correspondants dans `prototypes/recurrent_models/`.
 
+La self-attention causale multi-têtes est détaillée dans [docs/transformer_models/causal_self_attention_foundations.md](docs/transformer_models/causal_self_attention_foundations.md) et implémentée manuellement dans `prototypes/transformer_models/`.
+
 ## Aperçu de la roadmap
 
 La progression envisagée va des fondations Python vers un RAG fiable, puis vers l'intelligence ESG, les approches agentiques et, enfin, la mise en production. Les choix technologiques seront validés progressivement par l'apprentissage et l'évaluation. Voir [docs/roadmap.md](docs/roadmap.md) pour le détail.
