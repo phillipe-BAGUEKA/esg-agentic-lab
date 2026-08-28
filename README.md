@@ -34,6 +34,8 @@ Les fondations LSTM et GRU sont présentées dans [docs/recurrent_models/lstm_gr
 
 La self-attention causale multi-têtes est détaillée dans [docs/transformer_models/causal_self_attention_foundations.md](docs/transformer_models/causal_self_attention_foundations.md) et implémentée manuellement dans `prototypes/transformer_models/`.
 
+Le bloc Transformer causal pré-normalisé est présenté dans [docs/transformer_models/transformer_block_foundations.md](docs/transformer_models/transformer_block_foundations.md). Son [démonstrateur pédagogique](prototypes/transformer_models/transformer_block_demo.py) expose les shapes, les connexions résiduelles, la causalité et le nombre de paramètres.
+
 ## Aperçu de la roadmap
 
 La progression envisagée va des fondations Python vers un RAG fiable, puis vers l'intelligence ESG, les approches agentiques et, enfin, la mise en production. Les choix technologiques seront validés progressivement par l'apprentissage et l'évaluation. Voir [docs/roadmap.md](docs/roadmap.md) pour le détail.
